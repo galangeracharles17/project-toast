@@ -2,7 +2,7 @@
   "name": "toast-component",
   "version": "0.1.0",
   "private": true,
-  "author": "Josh Comeau <me@joshwcomeau.com>",
+  "author": "Charles Galangera",
   "dependencies": {
     "eslint": "^8.49.0",
     "eslint-config-react-app": "^7.0.1",
