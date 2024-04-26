@@ -27243,6 +27243,8 @@ var _toastShelf = require("../ToastShelf");
 var _toastShelfDefault = parcelHelpers.interopDefault(_toastShelf);
 var _toastPlaygroundModuleCss = require("./ToastPlayground.module.css");
 var _toastPlaygroundModuleCssDefault = parcelHelpers.interopDefault(_toastPlaygroundModuleCss);
+var _toastPng = require("../../../assets/toast.png");
+var _toastPngDefault = parcelHelpers.interopDefault(_toastPng);
 var _toastProvider = require("../ToastProvider");
 var _useTabSelection = require("../../hooks/useTabSelection");
 var _useTabSelectionDefault = parcelHelpers.interopDefault(_useTabSelection);
@@ -27274,28 +27276,28 @@ function ToastPlayground() {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                         alt: "Cute toast mascot",
-                        src: "/toast.png"
+                        src: (0, _toastPngDefault.default)
                     }, void 0, false, {
                         fileName: "src/components/ToastPlayground/ToastPlayground.js",
-                        lineNumber: 33,
+                        lineNumber: 34,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                         children: "Toast Playground"
                     }, void 0, false, {
                         fileName: "src/components/ToastPlayground/ToastPlayground.js",
-                        lineNumber: 34,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/ToastPlayground/ToastPlayground.js",
-                lineNumber: 32,
+                lineNumber: 33,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _toastShelfDefault.default), {}, void 0, false, {
                 fileName: "src/components/ToastPlayground/ToastPlayground.js",
-                lineNumber: 36,
+                lineNumber: 37,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
@@ -27314,7 +27316,7 @@ function ToastPlayground() {
                                 children: "Message"
                             }, void 0, false, {
                                 fileName: "src/components/ToastPlayground/ToastPlayground.js",
-                                lineNumber: 39,
+                                lineNumber: 40,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27332,18 +27334,18 @@ function ToastPlayground() {
                                     }
                                 }, void 0, false, {
                                     fileName: "src/components/ToastPlayground/ToastPlayground.js",
-                                    lineNumber: 47,
+                                    lineNumber: 48,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/ToastPlayground/ToastPlayground.js",
-                                lineNumber: 46,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ToastPlayground/ToastPlayground.js",
-                        lineNumber: 38,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27354,7 +27356,7 @@ function ToastPlayground() {
                                 children: "Variant"
                             }, void 0, false, {
                                 fileName: "src/components/ToastPlayground/ToastPlayground.js",
-                                lineNumber: 65,
+                                lineNumber: 66,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27371,25 +27373,25 @@ function ToastPlayground() {
                                                 onChange: (event)=>setVariantType(event.target.value)
                                             }, void 0, false, {
                                                 fileName: "src/components/ToastPlayground/ToastPlayground.js",
-                                                lineNumber: 69,
+                                                lineNumber: 70,
                                                 columnNumber: 17
                                             }, this),
                                             variantItem
                                         ]
                                     }, variantItem, true, {
                                         fileName: "src/components/ToastPlayground/ToastPlayground.js",
-                                        lineNumber: 68,
+                                        lineNumber: 69,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "src/components/ToastPlayground/ToastPlayground.js",
-                                lineNumber: 66,
+                                lineNumber: 67,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ToastPlayground/ToastPlayground.js",
-                        lineNumber: 64,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27399,7 +27401,7 @@ function ToastPlayground() {
                                 className: (0, _toastPlaygroundModuleCssDefault.default).label
                             }, void 0, false, {
                                 fileName: "src/components/ToastPlayground/ToastPlayground.js",
-                                lineNumber: 84,
+                                lineNumber: 85,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27409,38 +27411,38 @@ function ToastPlayground() {
                                         children: "Pop Toast!"
                                     }, void 0, false, {
                                         fileName: "src/components/ToastPlayground/ToastPlayground.js",
-                                        lineNumber: 86,
+                                        lineNumber: 87,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _visuallyHiddenDefault.default), {
                                         children: "Submit button"
                                     }, void 0, false, {
                                         fileName: "src/components/ToastPlayground/ToastPlayground.js",
-                                        lineNumber: 87,
+                                        lineNumber: 88,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/ToastPlayground/ToastPlayground.js",
-                                lineNumber: 85,
+                                lineNumber: 86,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/ToastPlayground/ToastPlayground.js",
-                        lineNumber: 83,
+                        lineNumber: 84,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/ToastPlayground/ToastPlayground.js",
-                lineNumber: 37,
+                lineNumber: 38,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/components/ToastPlayground/ToastPlayground.js",
-        lineNumber: 31,
+        lineNumber: 32,
         columnNumber: 5
     }, this);
 }
@@ -27459,7 +27461,7 @@ $RefreshReg$(_c, "ToastPlayground");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../Button":"bNbfl","../ToastShelf":"aliCa","./ToastPlayground.module.css":"53bch","../ToastProvider":"kY0Qf","../../hooks/useTabSelection":"aMuGI","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../VisuallyHidden":"fj2ki"}],"bNbfl":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../Button":"bNbfl","../ToastShelf":"aliCa","./ToastPlayground.module.css":"53bch","../ToastProvider":"kY0Qf","../../hooks/useTabSelection":"aMuGI","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../VisuallyHidden":"fj2ki","../../../assets/toast.png":"7nEC6"}],"bNbfl":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>(0, _buttonDefault.default));
@@ -30134,7 +30136,45 @@ exports.default = useTabSelection;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cjGwk":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7nEC6":[function(require,module,exports) {
+module.exports = require("73be0a55d72768fb").getBundleURL("bLxZJ") + "toast.98a4b943.png" + "?" + Date.now();
+
+},{"73be0a55d72768fb":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+}
+// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"cjGwk":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>(0, _footerDefault.default));
