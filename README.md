@@ -8,13 +8,13 @@ I approached this project in a freestyle way to learn and to improve my logical 
 
 ![Screen recording showing 3 toast messages popping up from user input](./docs/toast-demo.gif)
 
-## Addition feature that I added
+## Additional feature that I added
 
 - Tab selection on radio buttons
 - Escape key to erase all toast messages
 - Screen reader support on button
 
-## What did I learned?
+## What did I learn?
 
 - React hooks
 - Handling React states

@@ -7,6 +7,7 @@ import styles from './ToastPlayground.module.css';
 
 import { ToastContext } from '../ToastProvider';
 import useTabSelection from '../../hooks/useTabSelection';
+import VisuallyHidden from '../VisuallyHidden';
 
 const VARIANT_OPTIONS = ['notice', 'warning', 'success', 'error'];
 
@@ -83,6 +84,7 @@ function ToastPlayground() {
           <div className={styles.label} />
           <div className={`${styles.inputWrapper} ${styles.radioWrapper}`}>
             <Button>Pop Toast!</Button>
+            <VisuallyHidden>Submit button</VisuallyHidden>
           </div>
         </div>
       </form>
