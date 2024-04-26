@@ -4,6 +4,7 @@ import Button from '../Button';
 import ToastShelf from '../ToastShelf';
 
 import styles from './ToastPlayground.module.css';
+import toastImage from '../../../assets/toast.png';
 
 import { ToastContext } from '../ToastProvider';
 import useTabSelection from '../../hooks/useTabSelection';
@@ -30,7 +31,7 @@ function ToastPlayground() {
   return (
     <div className={styles.wrapper}>
       <header>
-        <img alt='Cute toast mascot' src='/toast.png' />
+        <img alt='Cute toast mascot' src={toastImage} />
         <h1>Toast Playground</h1>
       </header>
       <ToastShelf />
