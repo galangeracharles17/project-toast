@@ -1,4 +1,5 @@
 {
+  "homepage": "https://galangeracharles17.github.io/project-toast",
   "name": "toast-component",
   "version": "0.1.0",
   "private": true,
@@ -17,13 +18,18 @@
     "rimraf": "^5.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "predev": "rimraf .parcel-cache dist",
     "dev": "parcel public/index.html",
-    "build": "parcel build public/index.html",
+    "build": "parcel build public/index.html --public-url https://galangeracharles17.github.io/project-toast/",
     "new-component": "new-component"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "staticFiles": {
     "staticPath": "assets"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
